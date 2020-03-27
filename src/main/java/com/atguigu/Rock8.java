@@ -2,6 +2,7 @@ package com.atguigu;
 
 import java.util.concurrent.TimeUnit;
 /*
+待办 todo
 手机发短信和邮件
 1， email -> sms
 2,  email -> sms

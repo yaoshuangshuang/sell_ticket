@@ -1,5 +1,9 @@
 package com.atguigu;
 class  AirConditioning {
+
+    /*
+    待办:增加俩个线程
+     */
     private int number = 0;
     public synchronized void increment() throws Exception {
       // 判断

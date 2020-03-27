@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b72a903-62ae-4b02-ba2e-26bad4b75807" name="Default Changelist" comment="多线程，卖票，锁">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sell_ticket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/ProdConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/Rock8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/SaleTickets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/AirConditioning.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/Phone$Lock8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/Phone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/ProdConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/SaleTickets$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/SaleTickets$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/SaleTickets$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/SaleTickets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/Tickets.class" afterDir="false" />
+    <list default="true" id="9b72a903-62ae-4b02-ba2e-26bad4b75807" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/ProdConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/ProdConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/Rock8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/Rock8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +20,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\BaiduNetdiskDownload\dubbo课程\资料\incubator-dubbo-ops-master\sell_ticket\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -135,8 +126,16 @@
       <workItem from="1585270786658" duration="3957000" />
       <workItem from="1585304349213" duration="14364000" />
       <workItem from="1585337299754" duration="3342000" />
-      <workItem from="1585343617143" duration="1458000" />
+      <workItem from="1585343617143" duration="1875000" />
     </task>
+    <task id="LOCAL-00001" summary="多线程，卖票，锁">
+      <created>1585345138963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585345138963</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,15 +150,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585310184952" />
-    <state x="0" y="18" key="CommitChangelistDialog2" timestamp="1585345053888">
+    <state x="0" y="18" key="CommitChangelistDialog2" timestamp="1585345138059">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="18" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585345053888" />
+    <state x="0" y="18" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585345138059" />
     <state x="534" y="246" key="FileChooserDialogImpl" timestamp="1585344916651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="534" y="246" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585288264557" />
     <state x="534" y="246" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585344916651" />
+    <state x="690" y="267" width="273" height="207" key="Github.ShareDialog" timestamp="1585345220736">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="690" y="267" width="273" height="207" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1585345220736" />
     <state width="1222" height="160" key="GridCell.Tab.0.bottom" timestamp="1585340644266">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -226,7 +229,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/atguigu/ProdConsumer.java</url>
-          <line>3</line>
+          <line>7</line>
           <properties class="com.atguigu.AirConditioning" method="increment">
             <option name="EMULATED" value="true" />
           </properties>
