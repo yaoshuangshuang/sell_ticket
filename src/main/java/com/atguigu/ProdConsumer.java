@@ -7,7 +7,10 @@ class  AirConditioning {
     private int number = 0;
     public synchronized void increment() throws Exception {
       // 判断
-        if (number != 0) {
+//        将if 换为 while ，if 是判断，while是循环
+        //注意： wait 常和 while 一块使用,只要是wait,await使用while避免虚假唤醒
+
+        while (number != 0) {
             this.wait();//线程停止交出控制权
         }
         //业务
@@ -19,7 +22,7 @@ class  AirConditioning {
     }
 
     public synchronized void decrement() throws Exception {
-        if (number == 0) {
+        while (number == 0) {
             this.wait();//线程停止交出控制权
         }
         //业务
@@ -37,7 +40,7 @@ public class ProdConsumer {
         AirConditioning airConditioning = new AirConditioning();
         new Thread(() -> {
 
-            for (int i = 1; i < 30; i++) {
+            for (int i = 1; i < 10; i++) {
                 try {
                     airConditioning.increment();
                 } catch (Exception e) {
@@ -56,5 +59,26 @@ public class ProdConsumer {
                 }
             }
         }, "B").start();
+        //增加两个线程
+        new Thread(() -> {
+            for (int i = 1; i < 10; i++) {
+                try {
+                    airConditioning.increment();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }, "C").start();
+
+        new Thread(() -> {
+            for (int i = 1; i < 10; i++) {
+                try {
+                    airConditioning.decrement();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }, "D").start();
+
     }
 }

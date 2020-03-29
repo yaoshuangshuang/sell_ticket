@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b72a903-62ae-4b02-ba2e-26bad4b75807" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/LambdaExpress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/ProdConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/ProdConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/Rock8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/Rock8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/AirConditioning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/AirConditioning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/Phone$Lock8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/Phone$Lock8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/ProdConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/ProdConsumer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZgpqeWKHNEoNSKxheMocFbvW61" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -53,7 +60,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunManager" selected="Application.Phone$Lock8">
+  <component name="RunManager" selected="Application.LambdaExpress">
+    <configuration name="LambdaExpress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.LambdaExpress" />
+      <module name="sell_ticket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Phone$Lock8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.Phone$Lock8" />
       <module name="sell_ticket" />
@@ -95,8 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Phone$Lock8" />
+        <item itemvalue="Application.LambdaExpress" />
         <item itemvalue="Application.ProdConsumer" />
+        <item itemvalue="Application.Phone$Lock8" />
         <item itemvalue="Application.saleTickets" />
       </list>
     </recent_temporary>
@@ -126,7 +147,12 @@
       <workItem from="1585270786658" duration="3957000" />
       <workItem from="1585304349213" duration="14364000" />
       <workItem from="1585337299754" duration="3342000" />
-      <workItem from="1585343617143" duration="1875000" />
+      <workItem from="1585343617143" duration="2709000" />
+      <workItem from="1585349865850" duration="4930000" />
+      <workItem from="1585423367564" duration="425000" />
+      <workItem from="1585436314192" duration="583000" />
+      <workItem from="1585438705418" duration="190000" />
+      <workItem from="1585519792173" duration="2983000" />
     </task>
     <task id="LOCAL-00001" summary="多线程，卖票，锁">
       <created>1585345138963</created>
@@ -135,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585345138963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="多线程，卖票，锁&#10;增加todo">
+      <created>1585345772103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585345772103</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,17 +176,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="多线程，卖票，锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程，卖票，锁" />
+    <MESSAGE value="多线程，卖票，锁&#10;增加todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程，卖票，锁&#10;增加todo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1585310184952">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1585519865519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585310184952" />
-    <state x="0" y="18" key="CommitChangelistDialog2" timestamp="1585345138059">
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585519865519" />
+    <state x="0" y="23" width="1001" height="801" key="CommitChangelistDialog2" timestamp="1585345771432">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="18" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585345138059" />
+    <state x="0" y="23" width="1001" height="801" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585345771432" />
     <state x="534" y="246" key="FileChooserDialogImpl" timestamp="1585344916651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -163,25 +197,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="690" y="267" width="273" height="207" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1585345220736" />
-    <state width="1222" height="160" key="GridCell.Tab.0.bottom" timestamp="1585340644266">
+    <state width="1353" height="56" key="GridCell.Tab.0.bottom" timestamp="1585523922554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1222" height="11" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585320721578" />
+    <state width="1353" height="56" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585523922554" />
     <state width="1222" height="160" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585340644266" />
-    <state width="1222" height="160" key="GridCell.Tab.0.center" timestamp="1585340644265">
+    <state width="1353" height="56" key="GridCell.Tab.0.center" timestamp="1585523922553">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1222" height="11" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585320721577" />
+    <state width="1353" height="56" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585523922553" />
     <state width="1222" height="160" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585340644265" />
-    <state width="1222" height="160" key="GridCell.Tab.0.left" timestamp="1585340644265">
+    <state width="1353" height="56" key="GridCell.Tab.0.left" timestamp="1585523922553">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1222" height="11" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585320721577" />
+    <state width="1353" height="56" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585523922553" />
     <state width="1222" height="160" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585340644265" />
-    <state width="1222" height="160" key="GridCell.Tab.0.right" timestamp="1585340644265">
+    <state width="1353" height="56" key="GridCell.Tab.0.right" timestamp="1585523922554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1222" height="11" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585320721577" />
+    <state width="1353" height="56" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585523922554" />
     <state width="1222" height="160" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585340644265" />
     <state width="1222" height="11" key="GridCell.Tab.1.bottom" timestamp="1585320721578">
       <screen x="0" y="0" width="1536" height="824" />
@@ -204,14 +238,35 @@
     </state>
     <state x="246" y="116" width="1189" height="708" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585316925105" />
     <state x="279" y="27" width="992" height="742" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585344809494" />
-    <state x="555" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1585343694016">
+    <state x="430" y="74" key="Vcs.Push.Dialog.v2" timestamp="1585345841704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="555" y="269" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585304353435" />
+    <state x="430" y="74" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585345841704" />
+    <state x="555" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1585349952041">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="269" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585349952041" />
     <state x="555" y="269" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585343694016" />
-    <state x="437" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585337394431">
+    <state x="376" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585346098886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="376" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1585346098886" />
+    <state x="285" y="234" key="new project wizard" timestamp="1585358068621">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="285" y="234" key="new project wizard/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585358068621" />
+    <state x="508" y="91" key="refactoring.ChangeSignatureDialog" timestamp="1585356207214">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="508" y="91" key="refactoring.ChangeSignatureDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585356207214" />
+    <state x="782" y="198" key="run.anything.popup" timestamp="1585520270692">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="782" y="198" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585520270692" />
+    <state x="438" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585352555204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="438" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585352555204" />
     <state x="437" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585337394431" />
   </component>
   <component name="XDebuggerManager">
@@ -226,14 +281,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/atguigu/SaleTickets.java</url>
           <line>25</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/atguigu/ProdConsumer.java</url>
-          <line>7</line>
-          <properties class="com.atguigu.AirConditioning" method="increment">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
